@@ -1,0 +1,57 @@
+/* PRINCIPAL */
+
+* {
+	background-color: ghostwhite;
+	font-family: Raleway-VariableFont_wght;
+}
+
+@font-face{
+	font-family: Raleway-VariableFont_wght;
+	src: url('fuentes/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: AbrilFatface-Regular;
+  src: url('fuentes/Abril_Fatface/AbrilFatface-Regular.ttf');
+}
+
+/* MENÚ */ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FBE9E7;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #B0988C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #FBE9E7
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active{
+	background-color: #B0988C;
+	color: #FDF5F1;
+}
+
+/* HOME */
+.titulo{
+  font-family: AbrilFatface-Regular;
+  letter-spacing: 10pt;
+  color: #B0988C;
+  font-size: 45px;
+  text-align: center;
+}
